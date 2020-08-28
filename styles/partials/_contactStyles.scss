@@ -1,0 +1,42 @@
+.contact {
+    border-top: 2px solid rebeccapurple;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(assets/lavender.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactLinks {
+    width: 40%;
+    margin: 0 auto;
+    ul {
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+    
+    a {
+        color: black;
+        transition: 0.1s;
+        &:hover,
+        &:focus {
+            color: #EA9010;
+        }
+    }
+}
+
+.footerNote {
+    text-align: center;
+    font-size: 2rem;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 20px 0;
+    margin-top: 150px;
+}

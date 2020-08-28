@@ -1,0 +1,81 @@
+.projectContainer {
+    max-width: 95%;
+    background: rgb(253, 246, 252);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 30px auto;
+  }
+  
+  .projectImage {
+    flex: 1 1 300px;
+    min-width: 400px;
+    max-width: 450px;
+}
+
+.projectImage img {
+    height: 400px;
+    border-radius: 30px;
+    border: 3px solid rebeccapurple;
+}
+  
+  .projectInfo {
+    flex: 1 1 300px;
+    max-width: 45%;
+  }
+  
+  h3 {
+    margin-top: 45px;
+    font-size: 3rem;
+  }
+
+  p {
+      font-size: 2rem;
+      margin-top: 30px;
+  }
+  
+  i {
+      font-size: 3rem;
+      margin-left: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .projects {
+    ul li:nth-of-type(2) .projectContainer,
+    ul li:nth-of-type(4) .projectContainer {
+      flex-direction: row-reverse;
+    }
+  
+    ul li:nth-of-type(1) .projectImage,
+    ul li:nth-of-type(3) .projectImage {
+      margin-right: 50px;
+    }
+  
+    ul li:nth-of-type(2) .projectImage,
+    ul li:nth-of-type(4) .projectImage {
+      margin-left: 50px;
+    }
+
+  
+    ul li:nth-of-type(4) .projectContainer {
+      &:after {
+        width: 0;
+        height: 0;
+      }
+    }
+  
+    .projectContainer p:last-of-type {
+      padding: 10px 0 30px 0;
+    }
+  
+    a:first-of-type {
+      margin-right: 5px;
+    }
+  }

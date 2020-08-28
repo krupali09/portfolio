@@ -1,0 +1,39 @@
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+li,
+a {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #EA9010;
+    margin-top: 100px;
+}

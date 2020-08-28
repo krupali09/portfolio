@@ -1,0 +1,53 @@
+.aboutMeContainer {
+    height: 100vh;
+    display: flex;
+    margin-top: 90px;
+  }
+  
+  .aboutMeSection {
+    padding-bottom: 100px;
+  }
+  
+  .aboutMeContainerRight {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: rgb(243, 243, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .aboutMeImageContainer {
+    width: 50%;
+    position: relative;
+    right: 50px;
+    height: 90%;
+    margin: auto auto;
+        img {
+            border: 2px solid #EA9010;
+        }
+  }
+  
+  .aboutMeTextContainer {
+    width: 50%;
+    height: 89%;
+    margin: auto auto;
+  }
+  
+  .aboutMeTextContainer h3 {
+    font-size: 3rem;
+  }
+  
+  .aboutMeTextContainer p {
+    padding-right: 50px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    margin: 0;
+    text-align: justify;
+  }
+
+
+
+  
+ 
